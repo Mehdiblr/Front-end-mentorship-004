@@ -267,4 +267,84 @@ body main#main section#lenders div.lenders_logo {
 body main#main section#lenders div.lenders_logo img {
   width: 90px;
 }
+
+body main#main section#about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 60px 120px;
+  background-color: white;
+}
+
+body main#main section#about_us .about_us_product {
+  width: 50%;
+  padding: 25px;
+}
+
+body main#main section#about_us .about_us_product h2 {
+  font-size: 7rem;
+  color: #453332;
+  font-weight: 400;
+}
+
+body main#main section#about_us .about_us_product p {
+  font-size: 1.7rem;
+  color: #999999;
+}
+
+body main#main section#about_us .about_us_product button {
+  border: 0;
+  text-transform: uppercase;
+  background-color: #463232;
+  color: #d6cecf;
+  margin: 20px 0;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  -webkit-box-shadow: 0px 40px 90px #463232e3;
+          box-shadow: 0px 40px 90px #463232e3;
+  font-weight: 800;
+}
+
+body main#main section#about_us .about_us_product img {
+  width: 100%;
+  margin: 35px 0;
+}
+
+body main#main section#about_us .about_us_info {
+  width: 50%;
+  padding: 25px;
+}
+
+body main#main section#about_us .about_us_info img {
+  width: 100%;
+}
+
+body main#main section#about_us .about_us_info p {
+  font-size: 1.5rem;
+  color: #999999;
+  margin: 30px 0;
+}
+
+body main#main section#about_us .about_us_info button {
+  border: 1px solid #463232;
+  padding: 12px 40px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+}
 /*# sourceMappingURL=style.css.map */

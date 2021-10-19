@@ -1,11 +1,12 @@
 // Variables
 $back_ground_color: #dee1e7; // backGround Color
 $header_back_ground_color: #f2d5c8; // Header background Color
-$head_h2:#463232; // header heading h2
 $head_brown_color: #463232; // font's color and typo
 $pointer_head:#cd6b3cbd; // pointer in product
 $lenders:#fef6f0; // lenders back ground
-
+$about_us_heading:#453332; // about us heading
+$about_us_p:#999999; //about us paragraph color
+$paragraph_color:#d6cecf; // main paragraph color
 // Mixin
 
 // define a function for flex column
@@ -25,6 +26,22 @@ $lenders:#fef6f0; // lenders back ground
     align-content: center;
     justify-content: space-between;
     align-items: center;
+}
+@mixin custom_pad {
+    padding: 60px 120px;
+}
+//custom buttom
+@mixin buttom{
+    border: 0;
+    text-transform: uppercase;
+    background-color: $head_brown_color;
+    color: $paragraph_color;
+    margin: 20px 0;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    box-shadow: 0px 40px 90px #463232e3;
+    font-weight: 800;
 }
 // Custom Css
 body{
@@ -66,7 +83,7 @@ body{
             background-position: center center;
             h2{
                 font-size: 6rem;
-                color:$head_h2;
+                color:$head_brown_color;
             }
             div.product_notif{
                 display: flex;
@@ -112,7 +129,7 @@ body{
                     span{
                         text-transform: uppercase;
                         background-color: $head_brown_color;
-                        color: #d6cecf;
+                        color: $paragraph_color;
                         margin: 20px 0;
                         display: inline-block;
                         padding: 10px 30px;
@@ -182,6 +199,59 @@ body{
                     
                 }
             }
+        }
+        section#about_us{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: center;
+            align-items: flex-start;
+            padding: 60px 120px;
+            background-color: white;
+            .about_us_product{
+                width: 50%;
+                padding: 25px;
+                h2{
+                    font-size: 7rem;
+                    color:$about_us_heading;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 1.7rem;
+                    color:$about_us_p;
+                }
+                button{
+                    @include buttom;
+
+                }
+                img{
+                    width: 100%;
+                    
+                    margin: 35px 0;
+                }
+            }
+            .about_us_info{
+                width: 50%;
+                padding: 25px;
+                img{
+                    width: 100%;
+                }
+                p{
+                    font-size: 1.5rem;
+                    color:$about_us_p;
+                    margin: 30px 0;
+                }
+                button{
+                    border: 1px solid $head_brown_color;
+                    padding: 12px 40px;
+                    background: transparent;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-family: inherit;
+                }
+            }
+
         }
     }
 
