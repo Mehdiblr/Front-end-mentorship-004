@@ -1,0 +1,270 @@
+body {
+  background-color: #dee1e7;
+  padding: 4rem;
+}
+
+body #header {
+  background-color: #f2d5c8;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #header h1 {
+  text-transform: uppercase;
+}
+
+body #header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #header nav li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 1rem;
+  font-size: 1.4rem;
+}
+
+body main#main {
+  background-color: #f2d5c8;
+}
+
+body main#main section#product_advertisement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(assets/img/p1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body main#main section#product_advertisement h2 {
+  font-size: 6rem;
+  color: #463232;
+}
+
+body main#main section#product_advertisement div.product_notif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 60px 120px;
+  position: relative;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_describe {
+  width: 30%;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_describe p {
+  font-size: 1.4rem;
+  padding-bottom: 25px;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_describe form.search_product {
+  background-color: white;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_describe form.search_product input[type=text] {
+  outline: none;
+  border: 0;
+  width: 100%;
+  padding: 5px;
+  font-family: inherit;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_describe form.search_product input[type=submit] {
+  border: 0;
+  background: none;
+  outline: 0;
+  background-color: #463232;
+  color: white;
+  padding: 5px;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_describe span {
+  text-transform: uppercase;
+  background-color: #463232;
+  color: #d6cecf;
+  margin: 20px 0;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  -webkit-box-shadow: 0px 40px 90px #463232e3;
+          box-shadow: 0px 40px 90px #463232e3;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  padding: 30px;
+  top: 145px;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer span.pointer {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #cd6b3cbd;
+  border-radius: 50%;
+  position: absolute;
+  left: -79px;
+  top: 11px;
+  color: wheat;
+  font-size: 1.4rem;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer span.line {
+  width: 44px;
+  border-bottom: 2px solid black;
+  height: 1px;
+  position: absolute;
+  left: -20px;
+  top: 34px;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer h6 {
+  font-size: 1.2rem;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer p {
+  font-size: 1.2rem;
+  width: 40%;
+}
+
+body main#main section#lenders {
+  background-color: #fef6f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main#main section#lenders h3 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+body main#main section#lenders div.lenders_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 15px 0;
+}
+
+body main#main section#lenders div.lenders_logo img {
+  width: 90px;
+}
+/*# sourceMappingURL=style.css.map */
