@@ -355,4 +355,404 @@ body main#main section#about_us .about_us_info button {
   font-weight: 500;
   font-family: inherit;
 }
+
+body main#main section#product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 60px 120px;
+}
+
+body main#main section#product h3 {
+  font-size: 7rem;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+body main#main section#product p {
+  font-size: 1.4rem;
+  margin: 20px 0 0 0;
+  color: #999999;
+}
+
+body main#main section#product div.product_showing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin: 25px 0;
+}
+
+body main#main section#product div.product_showing div.product_left, body main#main section#product div.product_showing div.product_right {
+  width: 50%;
+  padding: 25px;
+}
+
+body main#main section#product div.product_showing div.product_left img, body main#main section#product div.product_showing div.product_right img {
+  width: 100%;
+  height: 340px;
+}
+
+body main#main section#product div.product_showing div.product_left h4, body main#main section#product div.product_showing div.product_right h4 {
+  font-size: 4rem;
+  color: #463232;
+}
+
+body main#main section#product div.product_showing div.product_left div.product_detail, body main#main section#product div.product_showing div.product_right div.product_detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+body main#main section#product div.product_showing div.product_left div.product_detail .organic_products, body main#main section#product div.product_showing div.product_left div.product_detail .yearly_sales, body main#main section#product div.product_showing div.product_left div.product_detail .happy_customrs, body main#main section#product div.product_showing div.product_right div.product_detail .organic_products, body main#main section#product div.product_showing div.product_right div.product_detail .yearly_sales, body main#main section#product div.product_showing div.product_right div.product_detail .happy_customrs {
+  width: 30%;
+}
+
+body main#main section#product div.product_showing div.product_left div.product_detail .organic_products span:first-child, body main#main section#product div.product_showing div.product_left div.product_detail .yearly_sales span:first-child, body main#main section#product div.product_showing div.product_left div.product_detail .happy_customrs span:first-child, body main#main section#product div.product_showing div.product_right div.product_detail .organic_products span:first-child, body main#main section#product div.product_showing div.product_right div.product_detail .yearly_sales span:first-child, body main#main section#product div.product_showing div.product_right div.product_detail .happy_customrs span:first-child {
+  color: #295c68;
+  display: table;
+  border-bottom: 2px solid #453332;
+  font-size: 2.4rem;
+}
+
+body main#main section#product div.product_showing div.product_left div.product_detail .organic_products span:last-child, body main#main section#product div.product_showing div.product_left div.product_detail .yearly_sales span:last-child, body main#main section#product div.product_showing div.product_left div.product_detail .happy_customrs span:last-child, body main#main section#product div.product_showing div.product_right div.product_detail .organic_products span:last-child, body main#main section#product div.product_showing div.product_right div.product_detail .yearly_sales span:last-child, body main#main section#product div.product_showing div.product_right div.product_detail .happy_customrs span:last-child {
+  color: #999999;
+  margin: 7px 2px;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+body main#main section#product div.product_showing div.product_left .card_button, body main#main section#product div.product_showing div.product_right .card_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main#main section#product div.product_showing div.product_left .card_button button:first-child, body main#main section#product div.product_showing div.product_left .card_button button:last-child, body main#main section#product div.product_showing div.product_right .card_button button:first-child, body main#main section#product div.product_showing div.product_right .card_button button:last-child {
+  border: none;
+  background-color: #463232;
+  text-transform: uppercase;
+  padding: 14px 35px;
+  margin: 5px 15px 5px 0;
+  color: #d6cecf;
+  font-weight: 700;
+}
+
+body main#main section#product div.product_showing div.product_left .card_button button:last-child, body main#main section#product div.product_showing div.product_right .card_button button:last-child {
+  background-color: transparent;
+  color: #453332;
+  border: 1px solid #453332;
+}
+
+body main#main section#product div.product_showing div.product_right {
+  padding: 25px;
+  width: 50%;
+}
+
+body main#main section#product div.product_showing div.product_right img {
+  width: 100%;
+}
+
+body main#main section#product_st {
+  background-color: #fffbf7;
+  width: 100%;
+}
+
+body main#main section#product_st div.product_statistics {
+  padding: 60px 120px;
+}
+
+body main#main section#product_st div.product_statistics ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main#main section#product_st div.product_statistics ul li {
+  list-style: none;
+  font-size: 2rem;
+  border-right: 2px solid #463232;
+  padding: 15px 25px;
+}
+
+body main#main section#product_st div.product_statistics ul li span {
+  display: block;
+  text-align: center;
+}
+
+body main#main section#product_st div.product_statistics ul li:last-child {
+  border: none;
+}
+
+body main#main section#best_taste {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 60px 120px;
+  background-color: white;
+}
+
+body main#main section#best_taste div.taste_image {
+  width: 50%;
+  padding: 25px;
+}
+
+body main#main section#best_taste div.taste_image img {
+  width: 100%;
+  -webkit-box-shadow: -20px 20px 1px #edd9cb;
+          box-shadow: -20px 20px 1px #edd9cb;
+}
+
+body main#main section#best_taste div.taste_info {
+  width: 50%;
+  padding: 25px;
+}
+
+body main#main section#best_taste div.taste_info h3 {
+  font-size: 6rem;
+  font-weight: 400;
+  color: #463232;
+}
+
+body main#main section#best_taste div.taste_info p {
+  font-size: 1.3rem;
+  color: #999999;
+  margin: 15px 0;
+}
+
+body main#main section#best_taste div.taste_info button {
+  border: 0;
+  border: 0;
+  text-transform: uppercase;
+  background-color: #463232;
+  color: #d6cecf;
+  margin: 20px 0;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  -webkit-box-shadow: 0px 40px 90px #463232e3;
+          box-shadow: 0px 40px 90px #463232e3;
+  font-weight: 800;
+}
+
+body main#main section#customer_comment {
+  padding: 60px 120px;
+  background-color: #fffbf7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+body main#main section#customer_comment h4 {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 400;
+  width: 60%;
+  color: #463232;
+}
+
+body main#main section#customer_comment p {
+  width: 60%;
+  font-size: 1.4rem;
+  color: #999999;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+body main#main section#customer_comment .customers_comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 15px 0;
+}
+
+body main#main section#customer_comment .customers_comments .client_comment {
+  margin: 10px;
+  background: white;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+body main#main section#customer_comment .customers_comments .client_comment img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+body main#main section#customer_comment .customers_comments .client_comment div.customer_image {
+  position: relative;
+}
+
+body main#main section#customer_comment .customers_comments .client_comment div.customer_image span {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 8px;
+  left: 50px;
+}
+
+body main#main section#customer_comment .customers_comments .client_comment div.customer_image span:last-child {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 25px;
+  left: 50px;
+  font-weight: 300;
+}
+
+body main#main section#customer_comment .customers_comments div.client_comment:hover {
+  -webkit-box-shadow: 0px 0px 10px #00000054;
+          box-shadow: 0px 0px 10px #00000054;
+  border-radius: 7px;
+}
+
+body main#main section#customer_comment div.navi_point {
+  position: absolute;
+  right: 144px;
+  top: 273px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  background: transparent;
+}
+
+body main#main section#customer_comment div.navi_point span {
+  padding: 14px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+body main#main section#customer_comment div.navi_point span:hover {
+  border: 2px solid #463232;
+  background-color: #463232;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
