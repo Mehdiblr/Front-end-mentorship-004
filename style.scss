@@ -4,10 +4,10 @@ $header_back_ground_color: #f2d5c8; // Header background Color
 $head_brown_color: #463232; // font's color and typo
 $pointer_head:#cd6b3cbd; // pointer in product
 $lenders:#fef6f0; // lenders back ground
-$about_us_heading:#453332; // about us heading
-$about_us_p:#999999; //about us paragraph color
+$heading_brown_color:#453332; // about us heading
+$paragraph_gray:#999999; //about us paragraph color
 $paragraph_color:#d6cecf; // main paragraph color
-$light_blue:#295c68;
+$light_blue:#295c68; // light blue for happy customer
 // Mixin
 
 // define a function for flex column
@@ -91,9 +91,6 @@ body{
                 border-radius: 50%;
                 color: white;
             }
-        }
-        .background-img-header{
-
         }
 
     }
@@ -262,14 +259,14 @@ body{
             .about_us_product{
                 width: 50%;
                 padding: 25px;
-                h2{
+                h3{
                     font-size: 7rem;
-                    color:$about_us_heading;
+                    color:$heading_brown_color;
                     font-weight: 400;
                 }
                 p{
                     font-size: 1.7rem;
-                    color:$about_us_p;
+                    color:$paragraph_gray;
                 }
                 button{
                     @include buttom;
@@ -293,7 +290,7 @@ body{
                 .about_us_info_img{
                     background-image: url(assets/img/main-img.png);
                     width: 100%;
-                    height: 279px;
+                    height: 270px;
                     background-position: -566px 0;
                 }
                 img{
@@ -301,8 +298,8 @@ body{
                 }
                 p{
                     font-size: 1.5rem;
-                    color:$about_us_p;
-                    margin: 30px 0;
+                    color:$paragraph_gray;
+                    margin: 20px 0;
                 }
                 button{
                     border: 1px solid $head_brown_color;
@@ -328,11 +325,12 @@ body{
                 font-size: 7rem;
                 font-weight: 500;
                 margin: 20px 0;
+                color:$heading_brown_color;
             }
             p{
                 font-size: 1.4rem;
                 margin: 20px 0 0 0;
-                color:$about_us_p;
+                color:$paragraph_gray;
             }
             div.product_showing{
                 display: flex;
@@ -372,12 +370,12 @@ body{
                         span:first-child{
                             color: $light_blue;
                             display: table;
-                            border-bottom: 2px solid $about_us_heading;
+                            border-bottom: 2px solid $heading_brown_color;
                             font-size: 2.4rem;
 
                         }
                         span:last-child{
-                            color:$about_us_p;
+                            color:$paragraph_gray;
                             margin: 7px 2px;
                             display: inline-block;
                             font-size:1.4rem;
@@ -401,8 +399,8 @@ body{
                     }
                     button:last-child{
                         background-color: transparent;
-                        color:$about_us_heading;
-                        border:1px solid $about_us_heading;
+                        color:$heading_brown_color;
+                        border:1px solid $heading_brown_color;
                     }
                    }
                 }
@@ -491,7 +489,7 @@ body{
                 }
                 p{
                     font-size: 1.3rem;
-                    color:$about_us_p;
+                    color:$paragraph_gray;
                     margin: 15px 0;
                 }
                 button{
@@ -520,7 +518,7 @@ body{
             p{
                 width: 60%;
                 font-size: 1.4rem;
-                color:$about_us_p;
+                color:$paragraph_gray;
                 font-weight: 400;
                 margin: 15px 0;
             }
@@ -620,7 +618,7 @@ body{
                         font-weight: 400;
                     }
                     p{
-                        color:$about_us_p;
+                        color:$paragraph_gray;
                         font-size: 1.4rem;
                         font-weight: 400;
                         margin: 20px 0;
@@ -637,7 +635,7 @@ body{
                         li{
                             padding: 15px 0 0 0 ;
                             font-size: 1.4rem;
-                            color:$about_us_p;
+                            color:$paragraph_gray;
                         }
                     }
                 
@@ -666,7 +664,7 @@ body{
                 text-align: center;
                 padding: 25px 0;
                 font-size: 1.6rem;
-                color: $about_us_p;
+                color: $paragraph_gray;
             }
         }
     }
