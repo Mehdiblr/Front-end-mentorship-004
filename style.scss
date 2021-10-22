@@ -401,6 +401,9 @@ body{
                             display: block;
                             text-align: center;
                         }
+                        span:first-child{
+                            font-weight: 600;
+                        }
                     }
                     li:last-child{
                         border:none;

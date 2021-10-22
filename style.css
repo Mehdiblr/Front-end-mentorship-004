@@ -578,6 +578,10 @@ body main#main section#product_st div.product_statistics ul li span {
   text-align: center;
 }
 
+body main#main section#product_st div.product_statistics ul li span:first-child {
+  font-weight: 600;
+}
+
 body main#main section#product_st div.product_statistics ul li:last-child {
   border: none;
 }
