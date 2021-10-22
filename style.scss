@@ -522,6 +522,71 @@ body{
                 }
             }
         }
+        footer#footer{
+            width: 100%;
+            @include custom_pad;
+            background-color: white;
+            div.footer_links{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-content: center;
+                align-items: flex-start;
+                
+                    h4{
+                        font-size: 3rem;
+                        font-weight: 400;
+                    }
+                    p{
+                        color:$about_us_p;
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        margin: 20px 0;
+                    }
+                
+                
+                    h4{
+                        font-weight: 400;
+                        font-size: 2rem;
+                    }
+                    ul{
+                        list-style: none;
+                        margin: 10px 0;
+                        li{
+                            padding: 15px 0 0 0 ;
+                            font-size: 1.4rem;
+                            color:$about_us_p;
+                        }
+                    }
+                
+
+            }
+            div.footer_links div:first-child{
+                width: 22%;
+            }
+            div.footer_social{
+                padding: 15px 0;
+                border-bottom: 1px solid #eee;
+                span{
+                    display: inline-block;
+                    width: 70px;
+                    height: 70px;
+                    border: 1px solid red;
+                    border-radius: 50%;
+                    padding: 26px 9px;
+                    margin-right: 3px;
+                    color: white;
+                    background: saddlebrown;
+                }
+            }
+            div.footer_copyright{
+                text-align: center;
+                padding: 25px 0;
+                font-size: 1.6rem;
+                color: $about_us_p;
+            }
+        }
     }
 
 }
