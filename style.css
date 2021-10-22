@@ -76,9 +76,9 @@ body #header div.account_nav span {
   width: 20px;
   height: 20px;
   padding: 0px 6px;
-  background-color: black;
+  background-color: #000;
   border-radius: 50%;
-  color: white;
+  color: #fff;
 }
 
 body main#main {
@@ -115,7 +115,7 @@ body main#main section#product_advertisement .background-img-header {
   z-index: 0;
 }
 
-body main#main section#product_advertisement h2 {
+body main#main section#product_advertisement h1 {
   font-size: 6rem;
   color: #463232;
 }
@@ -153,7 +153,7 @@ body main#main section#product_advertisement div.product_notif div.product_descr
 }
 
 body main#main section#product_advertisement div.product_notif div.product_describe form.search_product {
-  background-color: white;
+  background-color: #fff;
   padding: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,7 +187,7 @@ body main#main section#product_advertisement div.product_notif div.product_descr
   background: none;
   outline: 0;
   background-color: #463232;
-  color: white;
+  color: #fff;
   padding: 5px;
 }
 
@@ -228,13 +228,13 @@ body main#main section#product_advertisement div.product_notif div.product_point
   position: absolute;
   left: -79px;
   top: 11px;
-  color: wheat;
+  color: #fff;
   font-size: 1.4rem;
 }
 
 body main#main section#product_advertisement div.product_notif div.product_pointer span.line {
   width: 44px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000;
   height: 1px;
   position: absolute;
   left: -20px;
@@ -349,7 +349,7 @@ body main#main section#about_us {
           align-items: flex-start;
   padding: 60px 120px;
   padding-bottom: 0;
-  background-color: white;
+  background-color: #fff;
 }
 
 body main#main section#about_us .about_us_product {
@@ -443,7 +443,7 @@ body main#main section#product {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
+  background-color: #fff;
   padding: 60px 120px;
 }
 
@@ -661,7 +661,7 @@ body main#main section#best_taste {
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 60px 120px;
-  background-color: white;
+  background-color: #fff;
 }
 
 body main#main section#best_taste div.taste_image {
@@ -673,13 +673,9 @@ body main#main section#best_taste div.taste_image .taste_product_img {
   background-image: url(assets/img/main-img.png);
   width: 100%;
   height: 340px;
-  background-position: -561px -287px;
-}
-
-body main#main section#best_taste div.taste_image img {
-  width: 100%;
-  -webkit-box-shadow: -20px 20px 1px #edd9cb;
-          box-shadow: -20px 20px 1px #edd9cb;
+  background-position: -566px -285px;
+  -webkit-box-shadow: -20px 22px 1px #eee;
+          box-shadow: -20px 22px 1px #eee;
 }
 
 body main#main section#best_taste div.taste_info {
@@ -777,7 +773,7 @@ body main#main section#customer_comment .customers_comments {
 
 body main#main section#customer_comment .customers_comments .client_comment {
   margin: 10px;
-  background: white;
+  background: #fff;
   padding: 15px;
   border-radius: 3px;
 }
@@ -862,13 +858,13 @@ body main#main section#customer_comment div.navi_point span {
 body main#main section#customer_comment div.navi_point span:hover {
   border: 2px solid #463232;
   background-color: #463232;
-  color: white;
+  color: #fff;
 }
 
 body main#main footer#footer {
   width: 100%;
   padding: 60px 120px;
-  background-color: white;
+  background-color: #fff;
 }
 
 body main#main footer#footer div.footer_links {
@@ -925,7 +921,7 @@ body main#main footer#footer div.footer_links div:first-child {
 
 body main#main footer#footer div.footer_social {
   padding: 15px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid gray;
 }
 
 body main#main footer#footer div.footer_social span {
@@ -936,7 +932,7 @@ body main#main footer#footer div.footer_social span {
   border-radius: 50%;
   padding: 7px 11px;
   margin-right: 3px;
-  color: white;
+  color: #fff;
   background: #453130;
   font-size: 1.8rem;
 }
