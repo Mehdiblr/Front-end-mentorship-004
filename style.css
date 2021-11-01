@@ -203,6 +203,11 @@ body main#main section#product_advertisement div.product_notif div.product_descr
           box-shadow: 0px 40px 90px #463232e3;
 }
 
+body main#main section#product_advertisement div.product_notif div.product_describe span:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 body main#main section#product_advertisement div.product_notif div.product_pointer {
   position: absolute;
   right: 0;
@@ -382,6 +387,11 @@ body main#main section#about_us .about_us_product button {
   font-weight: 800;
 }
 
+body main#main section#about_us .about_us_product button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 body main#main section#about_us .about_us_product img {
   width: 100%;
   margin: 35px 0;
@@ -423,6 +433,10 @@ body main#main section#about_us .about_us_info button {
   text-transform: uppercase;
   font-weight: 500;
   font-family: inherit;
+}
+
+body main#main section#about_us .about_us_info button:hover {
+  background-color: #efefef;
 }
 
 body main#main section#product {
@@ -708,6 +722,11 @@ body main#main section#best_taste div.taste_info button {
   -webkit-box-shadow: 0px 40px 90px #463232e3;
           box-shadow: 0px 40px 90px #463232e3;
   font-weight: 800;
+}
+
+body main#main section#best_taste div.taste_info button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body main#main section#customer_comment {

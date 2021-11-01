@@ -171,6 +171,9 @@ body{
                         font-size: 1.3rem;
                         box-shadow: 0px 40px 90px $box_shadow_dark_brown;
                     }
+                    span:hover{
+                        box-shadow: none
+                    }
                 }
                 div.product_pointer{
                     position: absolute;
@@ -282,6 +285,9 @@ body{
                     @include buttom;
 
                 }
+                button:hover{
+                    box-shadow: none;
+                }
                 img{
                     width: 100%;
                     
@@ -318,6 +324,9 @@ body{
                     text-transform: uppercase;
                     font-weight: 500;
                     font-family: inherit;
+                }
+                button:hover{
+                    background-color: #efefef;
                 }
             }
 
@@ -508,6 +517,9 @@ body{
                 button{
                     border:0;
                     @include buttom;
+                }
+                button:hover{
+                    box-shadow: none;
                 }
             }
         }
