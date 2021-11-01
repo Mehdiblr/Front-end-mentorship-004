@@ -118,6 +118,7 @@ body main#main section#product_advertisement .background-img-header {
 body main#main section#product_advertisement h1 {
   font-size: 6rem;
   color: #463232;
+  margin-bottom: 10px;
 }
 
 body main#main section#product_advertisement div.product_notif {
