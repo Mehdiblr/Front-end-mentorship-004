@@ -79,6 +79,14 @@ body{
                 list-style-type: none;
                 padding: 0 1rem;
                 font-size:1.4rem;
+                a{
+                    text-decoration: none;
+                    color:inherit
+                }
+                a:hover{
+                    text-decoration: underline;
+                    font-size: 1.5rem;
+                }
             }
         }
         div.account_nav{
@@ -162,7 +170,7 @@ body{
                             padding: 5px;
                         }
                     }
-                    span{
+                    button.top_search{
                         text-transform: uppercase;
                         background-color: $head_brown_color;
                         color: $paragraph_color;
@@ -172,7 +180,7 @@ body{
                         font-size: 1.3rem;
                         box-shadow: 0px 40px 90px $box_shadow_dark_brown;
                     }
-                    span:hover{
+                    button:hover{
                         box-shadow: none
                     }
                 }
@@ -211,6 +219,32 @@ body{
                         font-size: 1.2rem;
                         width:40%;
                     }
+                    span.tooltip{
+                        visibility: hidden;
+                        top: -66px;
+                        position: absolute;
+                        width: 120px;
+                        padding: 15px 0;
+                        left: -110px;
+                        background: #ffd7a3;
+                        text-align: center;
+                        color: black;
+                        font-size: 1.4rem;
+                    }
+                    p.tooltip_p{
+                        width: 100%;
+                    }
+                }
+                div.product_pointer:hover{
+                    span.tooltip{
+                        visibility: visible;
+                        top: -40px;
+                        position: absolute;
+                        width: 120px;
+                        left: -110px;
+                        background: #ffd7a3;
+                    }
+                    
                 }
             }
         }
@@ -288,6 +322,7 @@ body{
                 }
                 button:hover{
                     box-shadow: none;
+                    cursor: pointer;
                 }
                 img{
                     width: 100%;
@@ -328,6 +363,7 @@ body{
                 }
                 button:hover{
                     background-color: #efefef;
+                    cursor: pointer;
                 }
             }
 
@@ -521,6 +557,7 @@ body{
                 }
                 button:hover{
                     box-shadow: none;
+                    cursor: pointer;
                 }
             }
         }
@@ -642,7 +679,6 @@ body{
                 justify-content: space-between;
                 align-content: center;
                 align-items: flex-start;
-                
                     h4{
                         font-size: 3rem;
                         font-weight: 400;
@@ -666,6 +702,14 @@ body{
                             padding: 15px 0 0 0 ;
                             font-size: 1.4rem;
                             color:$paragraph_gray;
+                            a{
+                                text-decoration: none;
+                                color:inherit;
+                            }
+                            a:hover{
+                                text-decoration: underline;
+                                color:#464646;
+                            }
                         }
                     }
                 

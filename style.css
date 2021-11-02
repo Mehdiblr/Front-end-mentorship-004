@@ -53,6 +53,16 @@ body #header nav li {
   font-size: 1.4rem;
 }
 
+body #header nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body #header nav li a:hover {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
 body #header div.account_nav {
   width: 100px;
   font-size: 1.4rem;
@@ -192,7 +202,7 @@ body main#main section#product_advertisement div.product_notif div.product_descr
   padding: 5px;
 }
 
-body main#main section#product_advertisement div.product_notif div.product_describe span {
+body main#main section#product_advertisement div.product_notif div.product_describe button.top_search {
   text-transform: uppercase;
   background-color: #463232;
   color: #d6cecf;
@@ -204,7 +214,7 @@ body main#main section#product_advertisement div.product_notif div.product_descr
           box-shadow: 0px 40px 90px #463232e3;
 }
 
-body main#main section#product_advertisement div.product_notif div.product_describe span:hover {
+body main#main section#product_advertisement div.product_notif div.product_describe button:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -254,6 +264,32 @@ body main#main section#product_advertisement div.product_notif div.product_point
 body main#main section#product_advertisement div.product_notif div.product_pointer p {
   font-size: 1.2rem;
   width: 40%;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer span.tooltip {
+  visibility: hidden;
+  top: -66px;
+  position: absolute;
+  width: 120px;
+  padding: 15px 0;
+  left: -110px;
+  background: #ffd7a3;
+  text-align: center;
+  color: black;
+  font-size: 1.4rem;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer p.tooltip_p {
+  width: 100%;
+}
+
+body main#main section#product_advertisement div.product_notif div.product_pointer:hover span.tooltip {
+  visibility: visible;
+  top: -40px;
+  position: absolute;
+  width: 120px;
+  left: -110px;
+  background: #ffd7a3;
 }
 
 body main#main section#lenders {
@@ -391,6 +427,7 @@ body main#main section#about_us .about_us_product button {
 body main#main section#about_us .about_us_product button:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
+  cursor: pointer;
 }
 
 body main#main section#about_us .about_us_product img {
@@ -438,6 +475,7 @@ body main#main section#about_us .about_us_info button {
 
 body main#main section#about_us .about_us_info button:hover {
   background-color: #efefef;
+  cursor: pointer;
 }
 
 body main#main section#product {
@@ -728,6 +766,7 @@ body main#main section#best_taste div.taste_info button {
 body main#main section#best_taste div.taste_info button:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
+  cursor: pointer;
 }
 
 body main#main section#customer_comment {
@@ -933,6 +972,16 @@ body main#main footer#footer div.footer_links ul li {
   padding: 15px 0 0 0;
   font-size: 1.4rem;
   color: #999999;
+}
+
+body main#main footer#footer div.footer_links ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body main#main footer#footer div.footer_links ul li a:hover {
+  text-decoration: underline;
+  color: #464646;
 }
 
 body main#main footer#footer div.footer_links div:first-child {
